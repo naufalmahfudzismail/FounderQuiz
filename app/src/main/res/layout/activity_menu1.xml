@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kota"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_centerInParent="true"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/founder"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/found"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founder Quiz"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#383b2d"
+        android:fontFamily="casual"
+        android:textStyle="bold" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#1a1a17"
+            android:text="Nama"/>
+    <EditText
+        android:backgroundTint="#95ffffff"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="@drawable/edittext"
+        android:id="@+id/namakamu"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:textColor="#35362e"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Ready? Klik Quiz!"/>
+    <TextView
+        android:textColor="#222824"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Mau Belajar dulu? klik Belajar!"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/materi"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           android:background="@drawable/roundedbutton"
+            android:textColor="#b7ffec"
+            android:text="Belajar"
+            android:onClick="Materi"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="#b7ffec"
+            android:id="@+id/Quiz"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:text="Quiz" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

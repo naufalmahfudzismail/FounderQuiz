@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erufal.quizpenemu.kuis1"
+    android:background="@drawable/kuis3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#050505"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siapakah penemu Senjata Mesin?"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:text="    A.   Michael Faraday"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="32dp"
+            android:id="@+id/btn1_soal1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <RadioButton
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:text="    B.   Charles babbage"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="32dp"
+            android:id="@+id/btn2_soal1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <RadioButton
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:text="    C.    Gotlieb Wilhem"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="32dp"
+            android:id="@+id/btn3_soal1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <RadioButton
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:text="    D.    Richard Jordan"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/btn4_soal1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:visibility="invisible"
+            android:id="@+id/next"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#953904f5"
+            android:text="Next"
+            android:textColor="#f506f111" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

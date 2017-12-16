@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Founder Quiz</string>
+    <string name="rule">1.	Kuis terdiri dari 10 kuis
+                        2.	Setiap jawaban benar mendapatkan point 4
+                        3.	Jika sudah menjawab, user tidak bisa kembali ke kuis sebelum nya
+                        4.	Setiap jawaban salah mengurangi point 1
+                        5.	Kuis nomor 1, 2, 6, 7 berbentuk button answer, dimana user harus menklik jawaban yang tersedia
+                        6.	Kuis nomor 3,8 berbentuk Radio button answer , dimana user harus memilih salah satu jawaban dan klik next
+                        7.	Soal nomor 4,9  berbentuk checkbutton answer, dimana user dapat  memlilih banyak jawaban atau pun tak ada jawaban nya dan klik next
+                        8.	Soal nomor 5, 10 berbentuk fill in the blank dimana user harus menjawab dengan tempat yang di sediakan
+                        9.	Penilaian berdasarkan range score
+                            •	Score >= 30 (A)
+                            •	Score >= 20 (B)
+                            •	Score >= 10 (C)
+                            •	10    > Score(D)
+    </string>
+</resources>

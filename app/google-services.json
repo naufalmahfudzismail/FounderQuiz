@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "234858190015",
+    "firebase_url": "https://founderq-558a8.firebaseio.com",
+    "project_id": "founderq-558a8",
+    "storage_bucket": "founderq-558a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234858190015:android:0569c8162f6e8ae1",
+        "android_client_info": {
+          "package_name": "com.erufal.quizpenemu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234858190015-869kvugoci76uaihkk9o4fr7rqf99m78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erufal.quizpenemu",
+            "certificate_hash": "e71d450cd4615b42e1349fdbe83997b0c9b11b9e"
+          }
+        },
+        {
+          "client_id": "234858190015-cfdf59vpcuouv4hkhtb1omke6q919gtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1eWhgbptV9X3l2iOZL8j1-6zzRA5jVHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234858190015-cfdf59vpcuouv4hkhtb1omke6q919gtd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
